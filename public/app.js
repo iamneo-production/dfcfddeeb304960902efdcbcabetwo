@@ -7,7 +7,10 @@ let conditions = [
     [3, 4, 5],
     [6, 7, 8],
     [0, 3, 6],
-    // Add more winning conditions as needed
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    []
 ];
 
 // Function to handle player's move
