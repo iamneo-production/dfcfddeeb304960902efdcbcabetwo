@@ -14,7 +14,7 @@ let conditions = [
 ];
 
 // Function to handle player's move
-function ticTacToe(btn, index) {
+function ticTacToe(btn, index) {=
     if (cells[index] === '' && !checkWinner()) {
         cells[index] = currentPlayer;
         btn.value = currentPlayer;
